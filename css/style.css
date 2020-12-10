@@ -58,3 +58,6 @@ li {
 li > span {
   font-size: 30px;
 }
+li > i {
+  color: red;
+}
