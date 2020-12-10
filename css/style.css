@@ -40,7 +40,6 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 ul {
   width: 35%;
@@ -51,4 +50,7 @@ li {
   padding: 20px;
   margin: 20px;
   list-style: none;
+}
+li > i {
+  text-align: end;
 }
