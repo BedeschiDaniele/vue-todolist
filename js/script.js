@@ -10,9 +10,9 @@ var app = new Vue (
     el: "#root",
     data: {
       list: [
-        "Comprare il pane",
-        "Comprare il latte",
-        "Comprare le uova"
+        "Organize photo shoot",
+        "Create animation",
+        "Update website"
       ],
       message:"",
     },
