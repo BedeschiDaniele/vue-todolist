@@ -14,7 +14,7 @@ h1 {
   color: #47E98F;
 }
 .blue {
-  color: #001632;
+  color: #022D89;
 }
 .container {
   width: 35%;
@@ -45,11 +45,12 @@ ul {
   width: 35%;
 }
 li {
-  background-color: red;
   line-height: 50px;
   padding: 20px;
   margin: 20px;
   list-style: none;
+  color: white;
+  background-color: #022D89;
 }
 li > i {
   text-align: end;
