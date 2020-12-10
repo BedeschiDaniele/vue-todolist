@@ -18,7 +18,10 @@ var app = new Vue (
     },
     methods: {
       addlist: function () {
-        this.list.push(this.message);
+        if (this.message != "") {
+          this.list.push(this.message);
+        }
+        this.message="";
       },
       removeitem: function (indexitem) {
         this.list.splice(indexitem,1);

@@ -10,7 +10,7 @@
     <h1><span class="green">To</span><span class="blue">do </span><span class="green">Li</span><span class="blue">st</span></h1>
     <div id="root">
       <div class="container">
-        <input v-model="message" type="text" placeholder="Write to add todo list" >
+        <input v-model="message" @keypress.13="addlist" type="text" placeholder="Write to add todo list" >
 
         <button type="button" name="button" @click="addlist">Add</button>
       </div>
