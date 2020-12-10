@@ -11,7 +11,13 @@ var app = new Vue (
         "Comprare il pane",
         "Comprare il latte",
         "Comprare le uova"
-      ]
+      ],
+      message:""
+    },
+    methods: {
+      addlist: function () {
+        this.list.push(this.message);
+      }
     }
   }
 );

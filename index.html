@@ -7,6 +7,8 @@
   </head>
   <body>
     <div id="root">
+      <input v-model="message" type="text" placeholder="Scrivi qualcosa da aggiungere">
+      <button type="button" name="button" @click="addlist">Aggiungi alla Lista</button>
       <ul>
         <li v-for="item in list">{{item}}</li>
       </ul>
