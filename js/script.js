@@ -12,11 +12,14 @@ var app = new Vue (
         "Comprare il latte",
         "Comprare le uova"
       ],
-      message:""
+      message:"",
     },
     methods: {
       addlist: function () {
         this.list.push(this.message);
+      },
+      removeitem: function (indexitem) {
+        this.list.splice(indexitem,1);
       }
     }
   }
